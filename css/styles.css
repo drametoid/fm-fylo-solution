@@ -1,0 +1,83 @@
+body {
+  background-color: #0C122C;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color: #1E2C69;
+  margin: 0;
+}
+
+.bg-w-attribution {
+  display: block;
+  position: relative;
+  margin: 27% auto 0;
+  text-align: center;
+  z-index: -1;
+}
+
+.attribution {
+  font-size: 11px;
+  margin: 0 auto 0;
+}
+
+.attribution a {
+  color: 	#3E52A3;
+}
+
+.logo-block {
+  display: block;
+  background-color: #1E2C69;
+  position: absolute;
+  top: 40%;
+  left: 18%;
+  width: 23%;
+  height: 23%;
+  border-radius: 10px;
+  border-top-right-radius: 100px;
+}
+
+.logo {
+  padding: 2.5em 0 2em 2.5em;
+}
+
+.action-icons {
+  background-color: #0C122C;
+  width: 35px;
+  height: 35px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 50px);
+  grid-column-gap: 15px;
+  position: relative;
+  width: 180px;
+  height: 45px;
+  left: 40px;
+}
+
+.grid-item {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: #0C122C;
+  border-radius: 8px;
+}
+
+.usage-info-block {
+  display: block;
+  background-color: #1E2C69;
+  position: absolute;
+  top: 43%;
+  left: 43%;
+  width: 37%;
+  height: 10rem;
+  border-radius: 10px;
+}
+
+.usage-info-block p {
+  position: absolute;
+  left: 35px;
+  top: 35px;
+  display: inline;
+  color: white;
+}
